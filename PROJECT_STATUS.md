@@ -79,3 +79,7 @@ Existing skills are referenced, not duplicated or newly installed. Any future Tw
 ## Role-specific Monday field mapping: November 14, 2026
 
 Brandon confirmed Juan = creator sourcing; Paola and Mac = designers; Andrea and Richard = editors. All five Monday accounts were resolved, and W-G03 was read back to verify Juan uses the Editor owner field. PROCESS.md now contains the named-owner table and separate field checklist for sourcing, design and editing, including 50/50 allocation within each production pool. Exact saved PROCESS.md content was verified. No Monday task was created, reassigned or edited during this documentation update.
+
+## Three-hook minimum: November 14, 2026
+
+Brandon requires at least three hooks per iteration and net new concept for men and women. PROCESS.md section 6A now requires H1/H2/H3 on testing-plan cards, briefs and Monday handoffs. Static delivery requires three finished images; video delivery requires three complete video edits with distinct opening hooks. Creator sourcing must cover all three hooks. Concepts and variants are counted separately. The saved policy was verified against the intended content. Existing testing-plan files, briefs and Monday tasks have not been updated by this documentation change; apply the requirement as remaining work is briefed and audit already briefed items before claiming compliance.
