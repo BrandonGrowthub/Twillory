@@ -75,3 +75,7 @@ GitHub connector returned 404 for this newly created private repository; initial
 - The three existing workflow images predate this schema clarification; use PROCESS.md as the current operational authority, especially for UGC Manager visibility and exact board labels.
 
 Existing skills are referenced, not duplicated or newly installed. Any future Twillory-only skill must first pass an upstream duplicate check. Live validation is pending the next authorized production handoff.
+
+## Role-specific Monday field mapping: November 14, 2026
+
+Brandon confirmed Juan = creator sourcing; Paola and Mac = designers; Andrea and Richard = editors. All five Monday accounts were resolved, and W-G03 was read back to verify Juan uses the Editor owner field. PROCESS.md now contains the named-owner table and separate field checklist for sourcing, design and editing, including 50/50 allocation within each production pool. Exact saved PROCESS.md content was verified. No Monday task was created, reassigned or edited during this documentation update.
