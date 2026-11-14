@@ -15,8 +15,8 @@ Baseline recorded November 14, 2026 from Brandon's corrections and the completed
 - Brief and script the current men's weekly testing plan.
 - Brief and script the remaining women's testing concepts beyond Wave 1 creator sourcing.
 - Reconcile concept-by-concept progress against current briefs and Monday tasks; don't infer everything is unstarted or everything is complete.
-- Finalize personas.
-- Convert established workflows into reusable skills, validate them, and upload to GitHub. This initial documentation does not complete that work.
+- Finalize men's personas and develop women's personas; women's segments remain provisional.
+- Reuse existing canonical skills through PROCESS.md. Do not duplicate them. Assess only missing Twillory-specific skill needs, then validate any newly authorized package.
 - Establish weekly delivery of 4 new men's creator briefs, 2 women's creator briefs, and 1-2 items for Zach.
 - Set up statics production using Higgsfield plus GPT or Claude.
 - Correct the weekly team update using verified completed actions only.
@@ -62,3 +62,16 @@ The earlier statement that 24 briefs from the current weekly plan were all compl
 Private BrandonGrowthub/Twillory created November 14, 2026. Initial files: README.md, AGENTS.md, PROJECT_STATUS.md.
 
 GitHub connector returned 404 for this newly created private repository; initial documentation was added through the signed-in browser. Connector access remains to be resolved. No reusable skills, source plans, dashboard code or Google Docs have been imported yet.
+
+## Process documentation update: November 14, 2026
+
+- Added [PROCESS.md](PROCESS.md): fresh-only scan policy, source coverage, performance reporting, testing-card contract, Foreplay concepting, video/static production, briefing, weekly targets, Monday preflight/read-back/recovery and status receipts.
+- Updated AGENTS.md to require the playbook and current project status at task start.
+- Located and read the canonical Growthub Conversation Scan, Sales Psychology and Production Brief SKILL.md files, checked catalog versions, and linked them without copying or modifying upstream skills.
+- Read live Creative Production board metadata and UGC Manager view filters. UGC Manager is a filtered view, not a group. UGC Status and a compatible source determine membership; main Status alone is insufficient.
+- Verified live asset labels VID, IMG and GIF, awareness labels, product dropdown type and the absence of an Evergreen column in this snapshot.
+- Clarified women's personas are not yet established and need development; men's personas still need finalization.
+- No Monday tasks or fields were changed during this documentation update. No claim of error-free live production, complete platform coverage or completed briefs is made.
+- The three existing workflow images predate this schema clarification; use PROCESS.md as the current operational authority, especially for UGC Manager visibility and exact board labels.
+
+Existing skills are referenced, not duplicated or newly installed. Any future Twillory-only skill must first pass an upstream duplicate check. Live validation is pending the next authorized production handoff.
