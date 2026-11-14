@@ -157,6 +157,45 @@ No recurring automation or weekly completion is implied by this policy. Do not i
 
 Board: [Creative Production](https://twillory-company.monday.com/boards/18410060478), ID 18410060478.
 
+### Role-specific field matrix
+
+Role assignments confirmed by Brandon on November 14, 2026. Monday account identities checked the same day.
+
+| Role | Named owner | Verified Monday user ID |
+| --- | --- | --- |
+| Creator sourcing | Juan David Rojas | 111952449 |
+| Designer | Paola G | 89990438 |
+| Designer | Mac Aira Macoy | 120725883 |
+| Editor | Andrea Suegart | 97991865 |
+| Editor | Richard | 113094436 |
+| Creative Strategist, all routes | Brandon Wasoski | 120952494 |
+
+Refresh identity/access when necessary. Allocate new design work 50/50 between Paola and Mac, and editing work 50/50 between Andrea and Richard, accounting for existing assignments. Preserve an explicitly selected owner. Never use the designer pool for video editing or the editor pool for static design by assumption.
+
+The board's single production-owner people field is titled **Editor** (multiple_person_mkv8z0ve). Use it for the assigned owner on each route. An existing creator-sourcing task, [W-G03](https://twillory-company.monday.com/boards/18410060478/pulses/13547495821), was read back on November 14 and confirms Juan in this field, Brandon in Creative Strategist, and Materials Needed in both status fields. The schema has no separate Designer or Juan people column.
+
+| Field / action | Juan: creator sourcing | Designers: Paola or Mac | Editors: Andrea or Richard |
+| --- | --- | --- | --- |
+| Editor / production owner | Juan | Exactly one designer | Exactly one editor |
+| Creative Strategist | Brandon | Brandon | Brandon |
+| Main Status | Materials Needed at sourcing handoff | Ready for Editing once design brief/assets are ready | Ready for Editing once edit brief/footage are ready |
+| UGC Status | Materials Needed; verify UGC Manager view membership | New internal task: N/A if writable; preserve existing unrelated UGC state | New internal task: N/A if writable; preserve existing sourcing state and dependency |
+| Source | Actual approved creator channel: Cohley, Trybe or Influencer - Other; do not assume | IH-Edit for internal design | IH-Edit for internal editing |
+| Asset Type | Intended final output, usually VID for a video creator brief; not a nonexistent Brief label | IMG for statics, GIF for motion statics | VID for video; use GIF only for an explicitly assigned GIF deliverable |
+| File Link + update | Creator sourcing Google Doc | Design Google Doc | Editing Google Doc |
+| Raw Files | Add verified received footage when available; do not invent a link | Link verified product/design source assets when available | Link verified footage/source assets before ready status |
+| Handoff / dependencies | Link future editing brief/task separately; do not replace Juan with the future editor | Record design deliverables and final asset links | Link sourcing task if required; record edit deliverables and final asset links |
+| UGC Review link | Only when an actual creator review URL exists | Leave untouched unless explicitly relevant | Leave untouched unless explicitly relevant |
+| Dates | Only known/authorized brief and UGC dates | Only known/authorized production dates | Only known/authorized production dates |
+| Reviewer | Preserve or set only from explicit routing instructions | Same | Same |
+| Priority | Leave untouched | Leave untouched | Leave untouched |
+
+Shared required fields on every route: concept ID/title, correct Mens or Womens division, product dropdown value, category, Awareness, asset type, source, owner, Brandon as strategist, working Google Doc link and Commenter sharing. The second Google Doc tab contains the relevant testing-plan card.
+
+Do not fill creator shipping, acceptance, usage, creator identity or UGC launch/review fields on internal-production tasks merely because those columns exist. Do not fabricate these values on Juan's tasks either; they become available during sourcing. Do not copy creator-sourcing dates onto editing due dates. A future editor named in a sourcing update is not an assignment change.
+
+Each task must pass its role-specific checklist plus shared field verification. If an optional not-applicable UGC field is restricted on an internal task, preserve it and record the exception. If a restricted UGC Status prevents the sourcing task appearing in UGC Manager, handoff visibility remains unresolved even if main Status is correct.
+
 ### Read before writing
 
 1. Read current board schema, active groups, labels, views and user identities.
@@ -189,7 +228,7 @@ Primary active production group: group_mm0gfvmh, Creative Production. Other acti
 
 UGC Manager is view 253228087. It requires UGC Status in indexes 11, 107, 106, 108, 8, 0, 105, 13 or 1, and excludes Source indexes 8 and 2 (IH-Shoot and IH-Edit). Materials Needed in the main Status column alone does not guarantee visibility in UGC Manager.
 
-For sourcing: choose the real sourcing channel, not IH-Edit. Set the appropriate UGC Status as well as the agreed main Status, then verify view visibility. Do not invent a sourcing platform or label when the channel is undecided. Juan was not in the returned board-subscriber list; that does not mean he cannot be assigned. Resolve his account through live users or an existing verified task.
+For sourcing: choose the real sourcing channel, not IH-Edit. Set the appropriate UGC Status as well as the agreed main Status, then verify view visibility. Do not invent a sourcing platform or label when the channel is undecided. Juan was absent from the board-subscriber snapshot but has since been resolved through live user search and an existing sourcing task. Use the verified role table above; subscriber membership alone is not an assignment-eligibility test.
 
 For internal production: use IH-Edit and Ready for Editing only when required inputs are available. Map video to VID and static image to IMG. The UI owner field is named Editor even when the production owner is a designer; verify how existing designer tasks use it.
 
