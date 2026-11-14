@@ -4,10 +4,12 @@ Private working repository for Twillory creative strategy and production, led by
 
 ## Start here
 
+- [PROCESS.md](PROCESS.md): complete workflow, canonical skill references, fresh-research rules and Monday verification/recovery.
+
 - [AGENTS.md](AGENTS.md): operating rules and production handoffs.
 - [PROJECT_STATUS.md](PROJECT_STATUS.md): completed work, outstanding work, and weekly targets.
 
-Read both before starting work. Check current testing-plan files and Monday tasks before making concept-level claims or creating production tasks.
+Read all three before starting work. Check current testing-plan files and Monday tasks before making concept-level claims or creating production tasks.
 
 ## Purpose
 
@@ -15,7 +17,7 @@ Keep process instructions and project progress available across sessions. A test
 
 ## Repository phase
 
-Initial process documentation and status baseline. Reusable skills have not yet been created or migrated into this repository. The existing testing-plan files, Google Docs, dashboard, and workflow images have not been copied into the repository.
+Client-specific process documentation and status baseline. PROCESS.md references existing canonical Growthub skills without duplicating them. No new personal skill has been installed. The existing testing-plan files, Google Docs, dashboard, and workflow images have not been copied into the repository.
 
 ## Working sources
 
