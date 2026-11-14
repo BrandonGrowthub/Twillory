@@ -1,284 +1,77 @@
-# Twillory creative process
+# Project status
 
-Owner: Brandon Wasoski. Updated November 14, 2026.
+Baseline recorded November 14, 2026 from Brandon's corrections and the completed work in this conversation. This is not a fresh audit of Monday or of every concept in the testing plans.
 
-This is Twillory's client-specific operating playbook. Read it alongside AGENTS.md and PROJECT_STATUS.md. It documents requirements; it does not mean any research, brief, task or creative has been completed.
+## Completed / handed off
 
-## 1. Reuse existing skills
-
-Use the canonical Growthub skills. Do not copy, rename, fork or recreate them in Twillory. Retrieve their current instructions and required references before executing the relevant stage. Record the version and source used per run.
-
-| Stage | Canonical skill | Catalog version checked November 14 |
+| Work | Confirmed scope | Evidence / qualification |
 | --- | --- | --- |
-| Conversation research | [growthub-conversation-scan](https://github.com/Growthub-OS/gh-client-agent-skills-library/blob/main/.agents/skills/creative-development/growthub-conversation-scan/SKILL.md) | 0.1.0, draft |
-| Persuasion in concepts, scripts and briefs | [growthub-sales-psychology](https://github.com/Growthub-OS/gh-client-agent-skills-library/blob/main/.agents/skills/growthub-sales-psychology/SKILL.md) | 0.1.0, draft |
-| Production briefs and storyboards | [growthub-production-brief](https://github.com/Growthub-OS/gh-client-agent-skills-library/blob/main/.agents/skills/creative-development/growthub-production-brief/SKILL.md) | 0.2.0, draft |
-| Supporting creative strategy | [growthub-creative-strategy](https://github.com/Growthub-OS/gh-client-agent-skills-library/blob/main/.agents/skills/creative-development/growthub-creative-strategy/SKILL.md) | 0.1.0, draft; located in catalog, not reviewed in full for this setup |
+| Creator ads dashboard | Built | Brandon explicitly confirmed it is built. Dashboard URL still needs to be recorded. |
+| Women's Wave 1 creator sourcing | Briefed and handed off to Juan in Monday | Sourcing handoff only; does not establish footage delivery, completed editing briefs, or finished ads. See task links below. |
+| Branded workflow images | Juan, editors and designers images created | Existing files: Juan_Creator_Sourcing.png, Editors_Video_Production.png, Designers_Statics_GIFs.png. Images not copied into this repo. |
 
-[Canonical catalog](https://github.com/Growthub-OS/gh-client-agent-skills-library/blob/main/catalog/skills.json).
+## Outstanding
 
-The first three SKILL.md files were read for this update. Required execution references must still be loaded when doing their actual work. Do not describe draft upstream skills as production-certified.
+- Brief and script the current men's weekly testing plan.
+- Brief and script the remaining women's testing concepts beyond Wave 1 creator sourcing.
+- Reconcile concept-by-concept progress against current briefs and Monday tasks; don't infer everything is unstarted or everything is complete.
+- Finalize men's personas and develop women's personas; women's segments remain provisional.
+- Reuse existing canonical skills through PROCESS.md. Do not duplicate them. Assess only missing Twillory-specific skill needs, then validate any newly authorized package.
+- Establish weekly delivery of 4 new men's creator briefs, 2 women's creator briefs, and 1-2 items for Zach.
+- Set up statics production using Higgsfield plus GPT or Claude.
+- Correct the weekly team update using verified completed actions only.
 
-Twillory overrides: fresh-only 7-10 day research; Hey Parker or the ad account as performance sources; editable Google Docs for team handoff; Twillory-branded deliverables and verified Twillory assets. These replace conflicting generic client defaults, such as a mandatory Motion dependency, Growthub document branding or DOCX-only handoff. Retain upstream research depth, script, storyboard and QA requirements unless Brandon explicitly changes them.
+## Weekly production requirements
 
-Keep general methods upstream. Put Twillory-specific configuration, templates, schemas, status and receipts here. Search the upstream catalog before proposing any additional skill. This update creates documentation, not a newly installed skill.
+| Deliverable | Weekly target | Current state |
+| --- | --- | --- |
+| New men's creator briefs | 4 | Requirement documented; weekly delivery count not audited |
+| New women's creator briefs | 2 | Requirement documented; weekly delivery count not audited |
+| Items for Zach | 1-2 | Exact deliverable type and handoff timing need to be established |
 
-## 2. Conversation Scan: fresh information only
+No recurring schedule or automation has been created.
 
-Default to the rolling last 7 days at run time. Extend to 10 days if needed for coverage, explicitly recording the extension. State the exact date/time boundaries and timezone. Do not use an older scan as the current scan just because it is the latest saved file.
+## Current plan references
 
-Every finding that informs the weekly creative plan must come from a consumer comment, review or conversation published within that window.
+- Men's: Twillory_Weekly_Testing_Plan_20261113.html
+- Women's: Twillory_Womens_Testing_Framework_20261113.html
 
-### Required source coverage
+Both were identified in the conversation. Their contents were not reopened for this initial repository setup. Open the latest versions before briefing; these filenames do not establish a completion count.
 
-Attempt each source family and report what was actually accessible:
+## Women's Wave 1 Monday references
 
-- Twillory and competitor Facebook ad comments.
-- Twillory and competitor Instagram ad comments.
-- Reddit threads and individual comments.
-- TikTok comments and discussions.
-- YouTube videos, discussions and comments.
-- Quora questions and answers.
-- Twillory's own website reviews.
-- Third-party review sites and retailer reviews.
-- Competitor product and brand reviews.
-- X / Twitter posts, replies and discussions.
-- Relevant forums and other category communities.
-
-Use approved connected tools first; use public search or authenticated browser access when needed and authorized. Search the whole relevant category, products and competitors, not only mentions of Twillory.
-
-A required coverage attempt is not a claim of complete platform access. Log each family as scanned, no qualifying fresh evidence, inaccessible, or not available. Name any missing access precisely. Never claim to have scanned every comment or every platform if access or pagination was incomplete.
-
-### Evidence rules
-
-- Verify the actual publication date of the individual comment or review. A crawl date, updated page date, search recency filter or thread creation date is insufficient by itself.
-- A fresh reply on an older thread can qualify; the older root post is context only.
-- An undated or older item cannot support a fresh finding. Keep it out of the findings and consumer-language bank.
-- Older brand facts, product references and past scans may be read for context and deduplication; do not count them as fresh research.
-- Open full threads, reviews and comment sections. Search snippets alone do not establish a finding.
-- Preserve URL/permalink, platform, comment/review date, capture date, product, audience evidence, quote or labeled paraphrase, theme and objection. Never put a paraphrase in quotation marks.
-- Deduplicate cross-posts and repeated comments. Separate consumers from brand replies, promotional copy and spam.
-- Mark repeated historical themes as recurring; do not label them newly discovered without a fresh reason.
-- Ground frequency and momentum in observed distinct records and date ranges. Do not invent volume or trends.
-- Retain upstream research depth and topic targets, but never pad a count using stale or invented evidence. Report fewer qualified findings and the coverage gap if necessary.
-- If access fails, continue independent source families and try an authorized alternative. Do not silently widen beyond 10 days to fill space.
-
-### Scan handoff
-
-Deliver a Twillory-branded scan with a dated evidence ledger, source-coverage table, fresh objections, consumer language, topics, creative opportunities and unresolved gaps. Give each finding an evidence ID so the testing plan can cite it.
-
-Acceptance: every finding used as fresh has a verified in-window date and source; inaccessible channels and incomplete coverage are disclosed.
-
-## 3. Ad Account Performance Insights
-
-Pull directly from the ad account or Hey Parker. Keep the established report format; use the current approved report as the reference when available. Its exact link must be resolved, not invented.
-
-- Scaling, remarketing and retention: last 14 days.
-- Creative Testing ACQ: last 5-7 days; generally evaluate tests live at least 5 days, with the existing exception for a creative absorbing most spend.
-- Keep the windows and campaign purposes separate.
-- Show actual ad names, thumbnails and the source creative link where available.
-- Report spend, revenue, ROAS and relevant supporting metrics with correct scope and attribution. ROAS is primary.
-- Targets: ACQ 2+, remarketing 3.25, retention 6+.
-- Weight product testing allocation by actual ACQ spend and strategic evidence, not equal counts per SKU.
-- Record source, retrieval time, exact date range, campaign/ad-set/ad identity and exclusions. Do not infer new-customer revenue from all-customer revenue.
-
-Acceptance: source and dates are visible, metrics reconcile within their stated scope, and each action is tied to an actual creative or product.
-
-## 4. Weekly testing plan: men and women
-
-The plan combines fresh conversation evidence and performance learning. Separate an initial proposed plan from the revised plan used for briefing.
-
-Each concept card must contain:
-
-| Field | Requirement |
+| Concept | Task |
 | --- | --- |
-| Identity | Stable concept ID, title, week, division and product |
-| Test type | Net new concept or iteration; parent creative for iterations |
-| Research reason | Evidence IDs, exact objection/topic and why it matters now |
-| Performance reason | Source creative and metrics, or explicit net-new hypothesis where no prior ad exists |
-| Persona | Verified persona and supporting behavior; provisional labels must be explicit |
-| Awareness | Unaware, Problem Aware, Solution Aware, Product Aware or Most Aware |
-| Hold | What stays constant: winning element, offer, proof, footage, audience or execution |
-| Change | Exact variable or creative approach being changed |
-| Hypothesis | Why the proposed change should improve response |
-| Execution | Video, static or GIF; visual format; reference; creator/internal route |
-| Decision | What result supports continuing, iterating or stopping; use agreed thresholds and viable spend |
-| Tracking | Plan revision, brief link, Monday task link and separate stage status |
+| W-G01 Sylvia A | Our duplicate was deleted; Juan's original remains. Original task URL needs to be captured. |
+| W-G02 Sylvia B - The Finishing Detail | https://twillory-company.monday.com/boards/18410060478/pulses/13545960897 |
+| W-G03 Ada A - See the Shape Move | https://twillory-company.monday.com/boards/18410060478/pulses/13547495821 |
+| W-G04 Ada B - Dinner, Dressed | https://twillory-company.monday.com/boards/18410060478/pulses/13547415803 |
+| W-G05 Marie - One Shirt, Two Plans | https://twillory-company.monday.com/boards/18410060478/pulses/13547383540 |
+| W-G06 Vera - The Last Layer | https://twillory-company.monday.com/boards/18410060478/pulses/13547416437 |
+| W-G07 Alice - One Dress, Out the Door | https://twillory-company.monday.com/boards/18410060478/pulses/13547416783 |
+| W-G08 Chloe - Dress for the Invitation | https://twillory-company.monday.com/boards/18410060478/pulses/13547496900 |
 
-Each card must trace to fresh consumer evidence. An iteration may also have a performance-led reason, but that is not a substitute for the conversation link. If evidence is missing, keep the proposal provisional and gather it.
+W-G02 was updated in place, not newly created. Juan's original was retained. UGC Status was restricted on the six new tasks during the previous upload. File Link was also restricted on at least one earlier task; brief links were included in updates. Recheck live state before claiming all fields are configured.
 
-Women's personas are not finalized. Craft them from evidence; label provisional segments clearly and do not pass them off as approved personas. Men's personas also still require finalization.
+## Status correction to preserve
 
-Acceptance: every briefable card specifies the objection, persona status, awareness stage, what to hold and what to change. Do not claim the complete plan is briefed because the plan exists.
+The earlier statement that 24 briefs from the current weekly plan were all completed and assigned was withdrawn. Brandon confirmed men's briefing and the rest of women's briefing remain to be done. Historical 24-brief activity must not be reported as this week's output without fresh verification.
 
-## 5. Concepting and visual formatting
+## Repository setup
 
-Use Foreplay and actual reference creatives to develop net new concepts, videos and statics. Concepting is a working stage that can change the initial testing plan.
+Private BrandonGrowthub/Twillory created November 14, 2026. Initial files: README.md, AGENTS.md, PROJECT_STATUS.md.
 
-For each reference, record its real URL and dissect the hook, opening image, format, story beats, pacing, proof, copy layout and CTA. Separate the reusable visual mechanism from the competitor's claims or identity.
+GitHub connector returned 404 for this newly created private repository; initial documentation was added through the signed-in browser. Connector access remains to be resolved. No reusable skills, source plans, dashboard code or Google Docs have been imported yet.
 
-Explore distinct formats such as creator face-to-camera, podcast, mockumentary, green screen, drama and longer narrative, where the idea fits. Give statics a deliberate place in the plan, with specific visual composition and copy hierarchy. Do not reduce the slate to video only.
+## Process documentation update: November 14, 2026
 
-After concepting, revise the plan and version affected cards. Brief the latest selected concept. Do not brief superseded versions, resurrect rejected duplicate concepts or invent an ad reference.
+- Added [PROCESS.md](PROCESS.md): fresh-only scan policy, source coverage, performance reporting, testing-card contract, Foreplay concepting, video/static production, briefing, weekly targets, Monday preflight/read-back/recovery and status receipts.
+- Updated AGENTS.md to require the playbook and current project status at task start.
+- Located and read the canonical Growthub Conversation Scan, Sales Psychology and Production Brief SKILL.md files, checked catalog versions, and linked them without copying or modifying upstream skills.
+- Read live Creative Production board metadata and UGC Manager view filters. UGC Manager is a filtered view, not a group. UGC Status and a compatible source determine membership; main Status alone is insufficient.
+- Verified live asset labels VID, IMG and GIF, awareness labels, product dropdown type and the absence of an Evergreen column in this snapshot.
+- Clarified women's personas are not yet established and need development; men's personas still need finalization.
+- No Monday tasks or fields were changed during this documentation update. No claim of error-free live production, complete platform coverage or completed briefs is made.
+- The three existing workflow images predate this schema clarification; use PROCESS.md as the current operational authority, especially for UGC Manager visibility and exact board labels.
 
-Acceptance: concept, reference and plan revision agree; each execution has a clear visual approach.
-
-## 6. Briefing and scripting
-
-Use Growthub Sales Psychology for persuasion and Growthub Production Brief for production structure. Load both actual instructions and applicable references. Use verified Twillory branding; never recreate a logo or product detail from memory.
-
-- Creator sourcing brief: creator profile, product, objective, full script/dialogue, exact shot list, references, delivery requirements and downstream editing handoff.
-- Editor brief: full script, footage sources, actual reference creative, visual/scene direction, exact on-screen copy, timings and required variations. Keep execution instructions relevant.
-- Designer brief: exact headline/body/CTA, visual direction, references, product assets, dimensions and variation requirements.
-- Keep creator footage sourcing and editing handoffs separate. Different product edits can share a sourcing brief only when the footage requirements cover both; each edit still has its own clear brief.
-- Preserve the full-script/scene-table match, storyboard and QA requirements from the upstream brief where applicable. A scene change invalidates dependent storyboard content.
-- Use Google Docs for collaboration. Put the relevant plan card on the second tab. Set Anyone with the link - Commenter and verify the actual sharing state.
-- Include source references and verified assets. No invented offers, claims, prices, links or specifications.
-- The document must be complete and checked before its Monday handoff is called ready.
-
-Acceptance: final script, execution instructions, assets, format, plan card and sharing work together. Brief completed is separate from task created, footage received or ad produced.
-
-## 7. Creator sourcing and weekly outputs
-
-Deliver to Juan every week:
-
-- 4 new men's creator briefs.
-- 2 new women's creator briefs.
-
-Also preserve the existing requirement of 1-2 items for Zach per week. Resolve Zach's exact deliverable type and handoff timing before scheduling it.
-
-Count distinct completed, verified briefs handed off to the intended owner, not hook variants, duplicate tasks, drafts, or a plan card without a brief. Track men's and women's counts separately by week. The existing Wave 1 backlog does not prove every future weekly target is met.
-
-Juan sources creators and footage. Editors receive the subsequent editing handoff when required assets are ready. Distribute editor and designer work evenly across the verified current roster; preserve existing assignments unless instructed otherwise.
-
-No recurring automation or weekly completion is implied by this policy. Do not invent due dates.
-
-## 8. Monday: prepare, write, verify, recover
-
-Board: [Creative Production](https://twillory-company.monday.com/boards/18410060478), ID 18410060478.
-
-### Role-specific field matrix
-
-Role assignments confirmed by Brandon on November 14, 2026. Monday account identities checked the same day.
-
-| Role | Named owner | Verified Monday user ID |
-| --- | --- | --- |
-| Creator sourcing | Juan David Rojas | 111952449 |
-| Designer | Paola G | 89990438 |
-| Designer | Mac Aira Macoy | 120725883 |
-| Editor | Andrea Suegart | 97991865 |
-| Editor | Richard | 113094436 |
-| Creative Strategist, all routes | Brandon Wasoski | 120952494 |
-
-Refresh identity/access when necessary. Allocate new design work 50/50 between Paola and Mac, and editing work 50/50 between Andrea and Richard, accounting for existing assignments. Preserve an explicitly selected owner. Never use the designer pool for video editing or the editor pool for static design by assumption.
-
-The board's single production-owner people field is titled **Editor** (multiple_person_mkv8z0ve). Use it for the assigned owner on each route. An existing creator-sourcing task, [W-G03](https://twillory-company.monday.com/boards/18410060478/pulses/13547495821), was read back on November 14 and confirms Juan in this field, Brandon in Creative Strategist, and Materials Needed in both status fields. The schema has no separate Designer or Juan people column.
-
-| Field / action | Juan: creator sourcing | Designers: Paola or Mac | Editors: Andrea or Richard |
-| --- | --- | --- | --- |
-| Editor / production owner | Juan | Exactly one designer | Exactly one editor |
-| Creative Strategist | Brandon | Brandon | Brandon |
-| Main Status | Materials Needed at sourcing handoff | Ready for Editing once design brief/assets are ready | Ready for Editing once edit brief/footage are ready |
-| UGC Status | Materials Needed; verify UGC Manager view membership | New internal task: N/A if writable; preserve existing unrelated UGC state | New internal task: N/A if writable; preserve existing sourcing state and dependency |
-| Source | Actual approved creator channel: Cohley, Trybe or Influencer - Other; do not assume | IH-Edit for internal design | IH-Edit for internal editing |
-| Asset Type | Intended final output, usually VID for a video creator brief; not a nonexistent Brief label | IMG for statics, GIF for motion statics | VID for video; use GIF only for an explicitly assigned GIF deliverable |
-| File Link + update | Creator sourcing Google Doc | Design Google Doc | Editing Google Doc |
-| Raw Files | Add verified received footage when available; do not invent a link | Link verified product/design source assets when available | Link verified footage/source assets before ready status |
-| Handoff / dependencies | Link future editing brief/task separately; do not replace Juan with the future editor | Record design deliverables and final asset links | Link sourcing task if required; record edit deliverables and final asset links |
-| UGC Review link | Only when an actual creator review URL exists | Leave untouched unless explicitly relevant | Leave untouched unless explicitly relevant |
-| Dates | Only known/authorized brief and UGC dates | Only known/authorized production dates | Only known/authorized production dates |
-| Reviewer | Preserve or set only from explicit routing instructions | Same | Same |
-| Priority | Leave untouched | Leave untouched | Leave untouched |
-
-Shared required fields on every route: concept ID/title, correct Mens or Womens division, product dropdown value, category, Awareness, asset type, source, owner, Brandon as strategist, working Google Doc link and Commenter sharing. The second Google Doc tab contains the relevant testing-plan card.
-
-Do not fill creator shipping, acceptance, usage, creator identity or UGC launch/review fields on internal-production tasks merely because those columns exist. Do not fabricate these values on Juan's tasks either; they become available during sourcing. Do not copy creator-sourcing dates onto editing due dates. A future editor named in a sourcing update is not an assignment change.
-
-Each task must pass its role-specific checklist plus shared field verification. If an optional not-applicable UGC field is restricted on an internal task, preserve it and record the exception. If a restricted UGC Status prevents the sourcing task appearing in UGC Manager, handoff visibility remains unresolved even if main Status is correct.
-
-### Read before writing
-
-1. Read current board schema, active groups, labels, views and user identities.
-2. Resolve the correct owner by actual account identity. Brandon is Creative Strategist; Juan handles sourcing. Do not guess IDs from display names.
-3. Search existing tasks by concept ID, name, product and stage; inspect likely matches. Keep Juan's originals.
-4. Prepare a task manifest from the final brief and plan revision. Include board, actual group, person fields, status fields, division, product, category, awareness, asset type, source, document URL and dependency links.
-5. Validate labels and types against the live schema. Do not create labels to work around a mismatch.
-6. Verify Google Doc content and Commenter sharing before task handoff.
-
-### Verified schema snapshot, November 14, 2026
-
-This is a lookup aid, not permanent authority. Refresh before each write session.
-
-| Meaning | Column ID | Live label / handling |
-| --- | --- | --- |
-| Division | color_mm72cd91 | Mens / Womens |
-| Creative Strategist | multiple_person_mm2q2tq8 | Brandon Wasoski, verified subscriber ID 120952494 |
-| Production owner | multiple_person_mkv8z0ve | Editor; resolve actual person and routing live |
-| Production status | status | Materials Needed / Ready for Editing, as appropriate |
-| Creator workflow status | color_mm41swgx | UGC Status; Materials Needed, index 11 |
-| Brief link | link_mm07y8vc | File Link |
-| Category | color_mm6d8pf7 | Select actual product category |
-| Product | dropdown_mm6dyn45 | Dropdown, not a connected-board relation |
-| Awareness | color_mm2x9bbr | Unawr / ProbAwr / SolAwr / ProdAwr / MostAwr |
-| Asset type | color_mkv0q0ap | VID / IMG / GIF |
-| Source | dropdown_mkvmnnqm | IH-Edit / IH-Shoot / Cohley / Trybe / Influencer - Other |
-| Priority | color_mm8qnjvd | Leave untouched |
-
-Primary active production group: group_mm0gfvmh, Creative Production. Other active groups exist; use the actual intended group, not a view name.
-
-UGC Manager is view 253228087. It requires UGC Status in indexes 11, 107, 106, 108, 8, 0, 105, 13 or 1, and excludes Source indexes 8 and 2 (IH-Shoot and IH-Edit). Materials Needed in the main Status column alone does not guarantee visibility in UGC Manager.
-
-For sourcing: choose the real sourcing channel, not IH-Edit. Set the appropriate UGC Status as well as the agreed main Status, then verify view visibility. Do not invent a sourcing platform or label when the channel is undecided. Juan was absent from the board-subscriber snapshot but has since been resolved through live user search and an existing sourcing task. Use the verified role table above; subscriber membership alone is not an assignment-eligibility test.
-
-For internal production: use IH-Edit and Ready for Editing only when required inputs are available. Map video to VID and static image to IMG. The UI owner field is named Editor even when the production owner is a designer; verify how existing designer tasks use it.
-
-No Evergreen column appeared in this snapshot. Do not add one or put evergreen into an unrelated field.
-
-### Write and verification contract
-
-- Start with one fully configured task, read it back, then continue the batch.
-- Use a connector first. If a supported operation errors or is incomplete, inspect the cause and use another authorized tool or the signed-in board UI.
-- Do not include historically restricted columns blindly in a large create payload. On a permission error, isolate the failing field and complete valid fields on the same item.
-- Put the Google Doc URL in the task update and File Link when writable. The update link preserves access if File Link is restricted; the missing File Link still remains explicitly incomplete.
-- Use both sourcing and editing task links for dependencies. Do not place creator sourcing in Ready for Editing.
-- Leave Priority and unrelated existing data untouched.
-- Read back exact item ID, title, group, person IDs, status values, division, product, category, awareness, asset type, source and brief links.
-- Verify the Google Doc URL opens and the intended viewer permission exists.
-- Verify intended view membership, not only board presence.
-- Record the final item URL and field-level verification in the run receipt.
-
-### Recovery contract
-
-A failed call is not a completed operation, and a timeout is not proof nothing was created.
-
-1. On uncertain creation, search for the exact concept/stage and read candidate items before retrying. Resume the same item if it exists.
-2. On column rejection, isolate that column; preserve completed fields. Never repeat the full create and generate a duplicate.
-3. On stale schema or invalid labels, refresh metadata and correct the manifest.
-4. On connector limitation, try the authorized signed-in browser for that exact task. Do not declare that Monday as a whole is unavailable after one failed route.
-5. Do not change permissions, bypass restrictions, or alter the board's schema to force an upload.
-6. If all authorized routes fail for a required field, preserve completed work and report the exact remaining field, item URL and recovery action. Be specific rather than making a blanket capability claim.
-7. Distinguish task created, task configured and verified handoff. Partial configuration is never reported as fully complete.
-
-The aim is reliable execution with recovery and verification. Documentation cannot guarantee external permissions or uptime. Never hide a real blocker to avoid reporting an error.
-
-Acceptance: every requested task has one intended record, correct fields, readable brief, proper owner and verified destination, or a precise partial-state receipt.
-
-## 9. Status, receipts and team reporting
-
-Maintain one row per concept and production stage with week, division, plan revision, scan evidence IDs, persona status, brief URL, Monday item ID/URL, owner, required fields, read-back result, unresolved fields and last verification time.
-
-Use explicit milestones: proposed, selected for briefing, brief/script complete, assigned and verified in Monday, footage received, editing/design complete, approved, launched. Record stages only when evidence supports them.
-
-Update PROJECT_STATUS.md after actual work. Do not carry old counts into a new week. User corrections take precedence. A dashboard reported built remains built; personas reported unfinished remain unfinished.
-
-A team update contains completed actions and actual handoffs only. Do not present policy, future quotas, research attempts or pending work as completed production.
-
-## 10. Remaining setup
-
-- Finalize men's personas and develop women's personas.
-- Brief/script the current men's plan and remaining women's concepts.
-- Configure Higgsfield plus GPT or Claude for statics and validate outputs.
-- Resolve the exact Zach deliverables and weekly handoff timing.
-- Record the current approved performance-report reference, brand assets and dashboard link.
-- Enable connector access to the new repo when available; browser access already supports documentation.
-- Validate Monday execution on the next authorized real handoff. This documentation update performs no Monday writes and is not a successful live mutation test.
+Existing skills are referenced, not duplicated or newly installed. Any future Twillory-only skill must first pass an upstream duplicate check. Live validation is pending the next authorized production handoff.
