@@ -71,6 +71,8 @@ Acceptance: every finding used as fresh has a verified in-window date and source
 
 ## 3. Ad Account Performance Insights
 
+Follow the [Twillory Ad Account Performance Insights workflow](.agents/skills/twillory-ad-account-performance-insights/SKILL.md) for the reporting steps and testing-plan handoff.
+
 Pull directly from the ad account or Hey Parker. Keep the established report format; use the current approved report as the reference when available. Its exact link must be resolved, not invented.
 
 - Scaling, remarketing and retention: last 14 days.
